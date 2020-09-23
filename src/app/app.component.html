@@ -1,0 +1,16 @@
+<h1>Bài thực hành 1</h1>
+<h3>B1 mẫu</h3>
+<input type="text" [(ngModel)]="n" />
+<button (click)="hanhdong()">Tính</button> {{ s }}
+<h3>Bài 1 tự làm</h3>
+Nhập n:<input type="text" [(ngModel)]="n" /> Nhập x:<input type="text" [(ngModel)]="x" />
+<button (click)="hanhdong1()">Tính</button> {{ s1 }}
+<h3>Bài 2 tự làm</h3>
+Nhập n:<input type="text" [(ngModel)]="n" /> Nhập x:<input type="text" [(ngModel)]="x" />
+<button (click)="hanhdong2()">Tính</button> {{ s2 }}
+<h3>Bài 6 tự làm</h3>
+
+<button (click)="hanhdong3()">Tổng dãy số là</button> {{ s3 }} <br /> Dãy số khai báo là:
+<div *ngFor="let item of arraynumber; let i = index">
+    <h3>{{ item }}</h3>
+</div>
